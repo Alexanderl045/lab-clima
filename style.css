@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #eaf2f8;
+  color: #263746;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1769aa;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+}
+
+.buscador {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #b7c9d6;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1769aa;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #104d80;
+}
+
+.tarjeta-clima {
+  padding: 30px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 12px #00000020;
+  text-align: center;
+}
+
+.altitud {
+  color: #667788;
+}
+
+.temperatura {
+  font-size: 56px;
+  font-weight: bold;
+  color: #1769aa;
+}
+
+.detalles {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.detalle-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.etiqueta {
+  color: #667788;
+}
+
+.valor {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .buscador {
+    flex-direction: column;
+  }
+}
